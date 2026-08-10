@@ -309,7 +309,10 @@ YTMainAppControlsOverlayView *controlsOverlayView;
         NSArray *listOptions = [showCommand listOptionArray];
         for (ELMPBElement *element in listOptions) {
             ELMPBProperties *properties = [element properties];
-            ELMPBIdentifierProperties *identifierProperties = [properties firstSubmessage];
+            id identifierProperties = properties;
+            if ([properties respondsToSelector:@selector(firstSubmessage)]) {
+                identifierProperties = [(id)properties firstSubmessage];
+            }
             // 19.30.2
             if ([identifierProperties respondsToSelector:@selector(identifier)]) {
                 NSString *identifier = [identifierProperties identifier];
