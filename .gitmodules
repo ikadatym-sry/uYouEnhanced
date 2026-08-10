@@ -97,3 +97,6 @@
 [submodule "Tweaks/YTweaks"]
 	path = Tweaks/YTweaks
 	url = https://github.com/fosterbarnes/YTweaks.git
+[submodule "Tweaks/YTHoldForSpeed"]
+    path = Tweaks/YTHoldForSpeed
+    url = https://github.com/ikadatym-sry/YTHoldForSpeed.git
