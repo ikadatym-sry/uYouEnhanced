@@ -68,9 +68,9 @@
 [submodule "Tweaks/YTClassicVideoQuality"]
     path = Tweaks/YTClassicVideoQuality
     url = https://github.com/PoomSmart/YTClassicVideoQuality.git
-[submodule "Tweaks/YTHoldForSpeed"]
-    path = Tweaks/YTHoldForSpeed
-    url = https://github.com/aricloverEXTRA/YTHoldForSpeed.git
+[submodule "Tweaks/YTHoldForSpeed-Sideloaded"]
+    path = Tweaks/YTHoldForSpeed-Sideloaded
+    url = https://github.com/aricloverEXTRA/YTHoldForSpeed-Sideloaded.git
 [submodule "Tweaks/YTIcons"]
     path = Tweaks/YTIcons
     url = https://github.com/PoomSmart/YTIcons.git
