@@ -18,7 +18,7 @@ on:
         type: string
       decrypted_youtube_url:
         description: "Direct URL of the decrypted YouTube IPA"
-        default: ""
+        default: "https://github.com/ikadatym-sry/justjunkforme/releases/download/Sasd/com.google.ios.youtube-21.11.4-Decrypted.ipa"
         required: true
         type: string
       bundle_id:
@@ -54,7 +54,7 @@ concurrency:
 jobs:
   build:
     name: Build uYouEnhanced
-    runs-on: macos-14
+    runs-on: macos-latest
     permissions:
       contents: write
 
