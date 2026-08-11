@@ -311,7 +311,7 @@ YTMainAppControlsOverlayView *controlsOverlayView;
             ELMPBProperties *properties = [element properties];
             id identifierProperties = properties;
             if ([properties respondsToSelector:@selector(firstSubmessage)]) {
-                identifierProperties = [(id)properties firstSubmessage];
+                identifierProperties = [(NSObject *)properties performSelector:@selector(firstSubmessage)];
             }
             // 19.30.2
             if ([identifierProperties respondsToSelector:@selector(identifier)]) {
